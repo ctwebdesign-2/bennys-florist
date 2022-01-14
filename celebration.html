@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-IE" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- mobile setting -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Primary Meta Tags -->
+  <title>Celebration | Benny's Florist</title>
+  <meta name="title" content="Benny's Florist">
+  <meta name="description" content="">
+
+  <!-- Open Graph / Facebook and Whatsapp -->
+  <!-- Changes how it will be displayed on facebook and Whatsapp-->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Benny's Florist">
+  <meta property="og:url" content=""><!-- Put url of website in here -->
+  <meta property="og:title" content="Celebration | Benny's Florist">
+  <meta property="og:description" content="Benny's Florist">
+  <meta property="og:image" content=""><!-- Put image path in here -->
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+
+  <!-- Twitter -->
+  <!-- Changes how it will be displayed on twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content=""><!-- Put url of website in here -->
+  <meta property="twitter:title" content="Celebration | Benny's Florist">
+  <meta property="twitter:description" content="Benny's Florist">
+  <meta property="twitter:image" content=""><!-- Put image path in here -->
+
+  <!-- Inserts a image into the website tab, has access to various different sizes -->
+  <link rel="icon" href="images/favicon.png" type="image/ico" sizes="16x16">
+  <link rel="icon" href="images/favicon.png" type="image/ico" sizes="32x32">
+  <link rel="icon" href="images/favicon.png" type="image/ico" sizes="96x96">
+
+  <!-- Links to stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Links to javascript -->
+  <script src="js/javascript.js"></script>
+</head>
+
+<body>
+  <!-- Main body of the website -->
+  <div class="container">
+
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <div class="logo">
+        <a href="index.html"><img src="images/logoblack.png" alt="The Cake Company Ballyfin"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="cakeshover"><a class="droplink" href="#">Flowers</a>
+            <ul class="dropdowncontent">
+              <li><a href="wedding.html">Wedding</a></li>
+              <li><a class="current" href="celebration.html">Celebration</a></li>
+              <li><a href="funeral.html">Funeral</a></li>
+              <li><a href="corporate.html">Corporate</a></li>
+            </ul>
+          </li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>w
+      <button class="hamburger is-active">
+        <div class="bar">
+        </div>
+      </button>
+
+      <div class="socialmedia">
+        <a id="facebook_icon" class="socialicons" href="https://www.facebook.com/TheCakeCompanyBallyfin" target="_blank"><img class="socialicons" src="images/socialmedia/facebook_icon.svg" alt="Facebook"></a>
+        <a id="instagram_icon" class="socialicons" href="https://www.instagram.com/thecakecompanyballyfin/" target="_blank"><img class="socialicons" src="images/socialmedia/instagram_icon.svg" alt="Instagram"></a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy;Copyright <span id="CurrentYear"></span><br>Benny's Florist</p>
+      </div>
+    </div>
+
+    <!--Main Content of page-->
+    <div class="main">
+      <!--Changes position of content on all pages-->
+      <div class="contentposition">
+        <div class="celebrationcakes">
+
+          <div class="heading">
+            <h1>Celebration Flowers</h1>
+          </div>
+          <hr class="headinglinebreak">
+          <p class="celebrationtext">What’s a celebration without a Celebration Cake? If you are organising a celebration be it for family or corporate event, you need a special cake from The Cake Company<span class="smallSpace"> </span><span
+              class="colouredvbar">|</span><span class="smallSpace"> </span><i class="ballyfinItalic">ballyfin</i>.</p>
+
+          <div id="celebrationgallery" class="gallery">
+
+            <!--Row-1 Harry Styles-->
+            <div class="imageborder">
+              <video class="verticalmedia" controls poster="images/celebrationcakes/HarryStyles/-C- Harry (9-16).jpg">
+                <source src="images/celebrationcakes/HarryStyles/Harry Styles Cake.mp4" type="video/mp4">
+                Your browser does not support mp4 videos
+              </video>
+            </div>
+            <div class="imageborder">
+              <img class="verticalmedia" src="images/celebrationcakes/HarryStyles/-C- Harry -1.jpg" alt="Harry Styles Cake">
+            </div>
+            <div class="imageborder">
+              <figure>
+                <div class="noimg"></div>
+                <figcaption><button class="popupbutton" onclick="togglePopup('popup-1')">
+                    <p>More information...</p>
+                  </button></figcaption>
+
+                <!--More information... Popup-->
+                <div class="popup" id="popup-1">
+                  <div class="overlay" onclick="togglePopup('popup-1')"></div>
+                  <div class="content">
+                    <div class="close-btn" onclick="togglePopup('popup-1')">&times;</div>
+                    <div class="popupheading">
+                      <h1>21st BIRTHDAY CAKE&nbsp;&nbsp;|&nbsp;&nbsp;Harry Styles</h1>
+                    </div>
+                    <p>A 21st Birthday cake for a girl who loves Harry Styles … I think I fell for him a little myself while making this cake …<br>
+                      <br>
+                      Chocolate Biscuit Cake with fondant icing, a variety of decorations including modelled flowers, a hand-cut cake topper and edible photographs.
+                    </p>
+                  </div>
+                </div>
+              </figure>
+            </div>
+
+            <!--Row-2 Duck Cake-->
+            <div class="imageborder">
+              <img class="horizontalmedia" src="images/celebrationcakes/Duck/-C- Duck -1.jpg" alt="Duck Cake">
+            </div>
+            <div class="imageborder">
+              <img class="verticalmedia" src="images/celebrationcakes/Duck/-C- Duck D1.jpg" alt="Duck Cake Detail">
+            </div>
+            <div class="imageborder">
+              <figure>
+                <img class="horizontalmedia" src="images/celebrationcakes/Duck/-C- Duck -2.jpg" alt="Duck Cake">
+                <figcaption><button class="popupbutton" onclick="togglePopup('popup-2')">
+                    <p>More information...</p>
+                  </button></figcaption>
+
+                <!--More information... Popup-->
+                <div class="popup" id="popup-2">
+                  <div class="overlay" onclick="togglePopup('popup-2')"></div>
+                  <div class="content">
+                    <div class="close-btn" onclick="togglePopup('popup-2')">&times;</div>
+                    <div class="popupheading">
+                      <h1>CELEBRATION CAKES&nbsp;&nbsp;|&nbsp;&nbsp;Duck Cake</h1>
+                    </div>
+                    <p>It’s important to have all your ducks lined-up …
+                      … in the case of young DAVID-LEE, he likes ducks and his Christening Cake had to go to four houses … all very COVID compliant …
+                      Belgian Chocolate with Vanilla buttercream decorated with fondant with handmade fondant ducks.
+                    </p>
+                  </div>
+                </div>
+              </figure>
+            </div>
+
+            <!--Row-3 Whimsical Cake-->
+            <div class="imageborder">
+              <img class="verticalmedia" src="images/celebrationcakes/Whimsical/-C- Whimsical -1.jpg" alt="Whimsical Cake">
+            </div>
+            <div class="imageborder">
+              <img class="horizontalmedia" src="images/celebrationcakes/Whimsical/-C- Whimsical D1.jpg" alt="Whimsical Cake Detail">
+            </div>
+            <div class="imageborder">
+              <figure>
+                <div class="noimg"></div>
+                <figcaption><button class="popupbutton" onclick="togglePopup('popup-3')">
+                    <p>More information...</p>
+                  </button></figcaption>
+
+                <!--More information... Popup-->
+                <div class="popup" id="popup-3">
+                  <div class="overlay" onclick="togglePopup('popup-3')"></div>
+                  <div class="content">
+                    <div class="close-btn" onclick="togglePopup('popup-3')">&times;</div>
+                    <div class="popupheading">
+                      <h1>CELEBRATION CAKES&nbsp;&nbsp;|&nbsp;&nbsp;Whimsical "Not A Wedding Cake"</h1>
+                    </div>
+                    <p>
+                      I Should have been in a castle today ... setting up a wedding cake for a lovely Bride & Groom
+                      This is the replacement, a whimsical cake for the couple to share and mark the day.
+                    </p>
+                  </div>
+                </div>
+              </figure>
+            </div>
+
+            <!--Row-4 Peter Rabbit Cake-->
+            <div class="imageborder">
+              <img class="verticalmedia" src="images/celebrationcakes/Peter/-C- Peter -1.jpg" alt="Peter Rabbit Cake">
+            </div>
+            <div class="imageborder">
+              <img class="verticalmedia" src="images/celebrationcakes/Peter/-C- Peter -2.jpg" alt="Peter Rabbit Cak">
+            </div>
+            <div class="imageborder">
+              <figure>
+                <img class="verticalmedia" src="images/celebrationcakes/Peter/-C- Peter D1.jpg" alt="Peter Rabbit Cake Detail">
+                <figcaption class="figcaptionhigher" class="verticalunderline"><button class="popupbutton" onclick="togglePopup('popup-4')">
+                    <p>More information...</p>
+                  </button></figcaption>
+
+                <!--More information... Popup-->
+                <div class="popup" id="popup-4">
+                  <div class="overlay" onclick="togglePopup('popup-4')"></div>
+                  <div class="content">
+                    <div class="close-btn" onclick="togglePopup('popup-4')">&times;</div>
+                    <div class="popupheading">
+                      <h1>BIRTHDAY / CHRISTENING&nbsp;|&nbsp;&nbsp;Two-In-One Cake</h1>
+                    </div>
+                    <p>What else would a little boy named Peter want on his Birthday Cake other than Peter Rabbit ... et voilà ... the other side was his Christening Cake ... what a clever little boy to have both events the one weekend ...</p>
+                  </div>
+                </div>
+              </figure>
+            </div>
+            <!--Copy from row 4 marker to here and paste to make another row-->
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

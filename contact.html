@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-IE" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- mobile setting -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Primary Meta Tags -->
+  <title>Contact | Benny's Florist</title>
+  <meta name="title" content="Benny's Florist">
+  <meta name="description" content="">
+
+  <!-- Open Graph / Facebook and Whatsapp -->
+  <!-- Changes how it will be displayed on facebook and Whatsapp-->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Benny's Florist">
+  <meta property="og:url" content=""><!-- Put url of website in here -->
+  <meta property="og:title" content="Contact | Benny's Florist">
+  <meta property="og:description" content="Benny's Florist">
+  <meta property="og:image" content=""><!-- Put image path in here -->
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+
+  <!-- Twitter -->
+  <!-- Changes how it will be displayed on twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content=""><!-- Put url of website in here -->
+  <meta property="twitter:title" content="Contact | Benny's Florist">
+  <meta property="twitter:description" content="Benny's Florist">
+  <meta property="twitter:image" content=""><!-- Put image path in here -->
+
+  <!-- Inserts a image into the website tab, has access to various different sizes -->
+  <link rel="icon" href="images/favicon.png" type="image/ico" sizes="16x16">
+  <link rel="icon" href="images/favicon.png" type="image/ico" sizes="32x32">
+  <link rel="icon" href="images/favicon.png" type="image/ico" sizes="96x96">
+
+  <!-- Links to stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Links to javascript -->
+  <script src="js/javascript.js"></script>
+</head>
+
+<body>
+  <!-- Main body of the website -->
+  <div class="container">
+
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <div class="logo">
+        <a href="index.html"><img src="images/logoblack.png" alt="The Cake Company Ballyfin"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="cakeshover"><a class="droplink" href="#">Flowers</a>
+            <ul class="dropdowncontent">
+              <li><a href="wedding.html">Wedding</a></li>
+              <li><a href="celebration.html">Celebration</a></li>
+              <li><a href="funeral.html">Funeral</a></li>
+              <li><a href="corporate.html">Corporate</a></li>
+            </ul>
+          </li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger is-active">
+        <div class="bar">
+        </div>
+      </button>
+
+      <div class="socialmedia">
+        <a id="facebook_icon" class="socialicons" href="https://www.facebook.com/TheCakeCompanyBallyfin" target="_blank"><img class="socialicons" src="images/socialmedia/facebook_icon.svg" alt="Facebook"></a>
+        <a id="instagram_icon" class="socialicons" href="https://www.instagram.com/thecakecompanyballyfin/" target="_blank"><img class="socialicons" src="images/socialmedia/instagram_icon.svg" alt="Instagram"></a>
+      </div>
+
+      <div class="copyright">
+        <p>&copy;Copyright <span id="CurrentYear"></span><br>Benny's Florist</p>
+      </div>
+    </div>
+
+    <!--Main Content of page-->
+    <div class="main">
+      <div class="contact">
+        <!--Contact form-->
+        <div id="form">
+          <div class="contactheading">
+            <h1>Contact</h1>
+          </div>
+          <hr class="headinglinebreak">
+          <section class="contactform">
+            <div class="formcontainer">
+              <form action="https://formsubmit.co/2052393518a89dc065cc1c4882e52cb9 " method="POST">
+                <!--Name input-->
+                <div class="form-group">
+                  <label for="name"><span class="requiredStar">*</span>Name</label><br>
+                  <input class="forminput" type="text" id="name" name="firstName" placeholder="First" required>
+                  <input class="forminput" type="text" id="name" name="lastName" placeholder="Last" required>
+                </div>
+                <!--Email input-->
+                <div class="form-group">
+                  <label for="email"><span class="requiredStar">*</span>E-mail</label><br>
+                  <input class="forminput" type="email" id="email" onselectstart="return false" oncut="return false" oncopy="return false" onpaste="return false" ondrag="return false" ondrop="return false" name="email"
+                    placeholder="example@example.com" placeholder="example@example.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="confirmEmail"><span class="requiredStar">*</span>Confirm E-mail</label><br>
+                  <input class="forminput" type="email" id="confirmEmail" onselectstart="return false" oncut="return false" oncopy="return false" onpaste="return false" ondrag="return false" ondrop="return false" autocomplete="nope" name="email"
+                    placeholder="example@example.com" required>
+                </div>
+
+                <!--Number input-->
+                <div class="form-group">
+                  <label for="mobileNumber"><span class="requiredStar">*</span>Mobile number</label><br>
+                  <input class="forminput" type="tel" id="mobileNumber" name="mobileNumber" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="landlineNumber">Landline number</label><br>
+                  <input class="forminput" type="tel" id="landlineNumber" name="landlineNumber">
+                </div>
+
+                <!--Message input-->
+                <div class="form-group">
+                  <label for="message"><span class="requiredStar">*</span>Message</label>
+                  <textarea class="forminput" name="message" placeholder="Type message here..." required rows="4" cols="70"></textarea>
+                </div>
+
+                <button onclick="return validateEmail();" type="submit" name="Submit">Submit</button>
+                <!--Put this back in ( onclick="alert('Your message has been sent')" )-->
+              </form>
+            </div>
+
+            <!--<div id="status" class="success">Success</div>-->
+          </section>
+        </div>
+        <!--Contact text info-->
+        <div id="text">
+          <div class="contactTextBorder">
+            <p class="contacttext">
+              Benny's Florist,<br>
+              8 Harbour Street,<br>
+              Tullamore,<br>
+              Co. Offaly.<br>
+              R35 NR59<br>
+              <a class="smallPhone" href="tel:=085 8546155">085 85461552</a><br>
+            </p>
+          </div>
+        </div>
+        <!--Contact Google maps-->
+        <div id="map">
+          <script type="text/javascript">
+            function initMap() {
+              var location = {
+                lat: 53.275940,
+                lng: -7.489520
+              };
+              var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: location
+              });
+              var marker = new google.maps.Marker({
+                position: location,
+                map: map
+              });
+            }
+          </script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjgbBNNVeeFqRJHN475QrQEKhNqoKPBQo&callback=initMap"></script>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
