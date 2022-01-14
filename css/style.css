@@ -364,8 +364,8 @@ table {
   .hometile {
     display: flex;
     justify-content: center;
-    height: 400rem;
-    width: 356.25rem;
+    height: 370rem;
+    width: 370rem;
     box-shadow: 5rem 5rem 20rem 5rem rgba(0, 0, 0, 0.3);
     border-radius: 25rem 25rem 25rem 25rem;
     position: relative;
@@ -394,7 +394,7 @@ table {
   .abouttile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
@@ -419,7 +419,7 @@ table {
   .weddingtile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
@@ -432,7 +432,7 @@ table {
   .celebrationtile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
@@ -445,7 +445,7 @@ table {
   .funeraltile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
@@ -458,7 +458,7 @@ table {
   .corporatetile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
@@ -471,7 +471,7 @@ table {
   .shoptile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
@@ -484,7 +484,7 @@ table {
   .pricingtile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
@@ -497,7 +497,7 @@ table {
   .contacttile img {
     position: relative;
     display: block;
-    height: 380rem;
+    height: 370rem;
     width: auto;
     z-index: -1;
   }
