@@ -394,7 +394,7 @@ table {
   .abouttile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -404,9 +404,6 @@ table {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-
-  .centered {
     font-size: 30rem;
     color: black;
   }
@@ -419,7 +416,7 @@ table {
   .weddingtile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -432,7 +429,7 @@ table {
   .celebrationtile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -445,7 +442,7 @@ table {
   .funeraltile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -458,7 +455,7 @@ table {
   .corporatetile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -471,7 +468,7 @@ table {
   .shoptile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -484,7 +481,7 @@ table {
   .pricingtile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -497,7 +494,7 @@ table {
   .contacttile img {
     position: relative;
     display: block;
-    height: 370rem;
+    height: 320rem;
     width: auto;
     z-index: -1;
   }
@@ -526,8 +523,18 @@ table {
     font-size: 10rem;
   }
 
-  /*Wedding and celebration gallery overall style*/
+  /*Weddings, funerals, corporate and celebrations gallery overall style*/
   #weddinggallery {
+    margin: 0 auto;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0fr;
+    align-items: center;
+    grid-gap: 75rem;
+  }
+
+  #funeralgallery {
     margin: 0 auto;
     display: grid;
     max-width: 100%;
@@ -542,7 +549,7 @@ table {
     display: grid;
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 0fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0.02fr;
     align-items: center;
     grid-gap: 75rem;
   }
@@ -551,8 +558,17 @@ table {
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   }
 
-  .gallery figure, img, video {
+  .gallery img, video {
     margin: auto;
+  }
+
+  .figurehorizontallower {
+    margin: 58rem;
+  }
+
+  .gallery figure {
+    position: relative;
+    top: 35rem;
   }
 
   .gallery figure figcaption {
@@ -563,7 +579,7 @@ table {
 
   .gallery figure .figcaptionhigher {
     position: relative;
-    top: 0rem;
+    top: 6rem;
     text-align: center;
   }
 
