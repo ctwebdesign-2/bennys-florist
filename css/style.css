@@ -200,12 +200,8 @@ table {
   }
 
   .logo {
-    height: 180rem;
-  }
-
-  .logo img {
-    margin-left: 10rem;
-    width: 300px;
+    position: relative;
+    top: 70rem;
   }
 
   .hamburger {
@@ -303,9 +299,7 @@ table {
     width: 150px;
   }*/
   .socialmedia {
-    margin-left: 90px;
-    width: 135.65px;
-    height: 30px;
+    margin-left: 95px;
   }
 
   .socialicons {
@@ -529,17 +523,7 @@ table {
     display: grid;
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0fr;
-    align-items: center;
-    grid-gap: 75rem;
-  }
-
-  #funeralgallery {
-    margin: 0 auto;
-    display: grid;
-    max-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0fr;
+    grid-template-rows: 1fr 1fr 0fr;
     align-items: center;
     grid-gap: 75rem;
   }
@@ -550,6 +534,26 @@ table {
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0.02fr;
+    align-items: center;
+    grid-gap: 75rem;
+  }
+
+  #funeralgallery {
+    margin: 0 auto;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0fr;
+    align-items: center;
+    grid-gap: 75rem;
+  }
+
+  #corporategallery {
+    margin: 0 auto;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0fr;
     align-items: center;
     grid-gap: 75rem;
   }
@@ -579,7 +583,7 @@ table {
 
   .gallery figure .figcaptionhigher {
     position: relative;
-    top: 6rem;
+    top: 0rem;
     text-align: center;
   }
 
@@ -601,21 +605,7 @@ table {
     position: absolute;
     left: 0;
     bottom: 0;
-    margin-left: 77rem;
-    width: 197rem;
-    height: 2px;
-    background: currentColor;
-    transform: scaleX(0);
-    transform-origin: top;
-    transition: transform 0.3s ease-in;
-  }
-
-  .gallery figure .figcaptionhigher button::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-left: 20rem;
+    margin-left: 78rem;
     width: 197rem;
     height: 2px;
     background: currentColor;
@@ -650,7 +640,7 @@ table {
 
   .noimg {
     width: 350rem;
-    height: 196.83rem;
+    height: 350rem;
     margin: auto;
   }
 
@@ -713,6 +703,20 @@ table {
 
   .popupbutton {
     cursor: pointer;
+  }
+
+  /*Funeral page*/
+  .funeraltext {
+    text-align: left;
+    width: 900rem;
+    margin-bottom: 75rem;
+  }
+
+  /*Corporate page*/
+  .corporatetext {
+    text-align: left;
+    width: 890rem;
+    margin-bottom: 50rem;
   }
 
   /*Wedding page*/
